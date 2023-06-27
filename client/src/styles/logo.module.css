@@ -1,0 +1,71 @@
+
+.mainContainer{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.imagesContainer {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    gap: 30px;
+    min-height: 100vh;
+    justify-content: center;
+}
+.imagesContainer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(116, 114, 114);
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+.imagesContainer img{
+    width: 95%;
+    height: 95%;
+    border-radius: 15px;
+    
+}
+
+.prologoContainer h1 {
+    width: 80%;
+    text-align: center;
+    font-family: var(--Font-Title);
+    font-size: 60px;
+
+
+}
+.prologoContainer{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    opacity: 0;
+}
+.prologoContainerVisible h1 {
+    width: 80%;
+    text-align: center;
+    font-family: var(--Font-Title);
+    font-size: 60px;
+    transition: 3s all;
+
+}
+
+.prologoContainerVisible{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    opacity: 1;
+    transition: 5s all;
+}
+
+#div1{
+    opacity: 0px;
+}

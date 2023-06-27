@@ -1,0 +1,91 @@
+.mainContainer {
+    display: flex;
+    align-items: center;
+    min-height: 90vh;
+    background: var(--BackGrounSecondColor);
+    padding: 60px 100px 0px 100px;
+
+}
+
+.prologoContainer {
+    width: 50%;
+
+}
+
+.prologoContainer h1 {
+    text-align: center;
+    font-family: var(--Font-Title);
+    font-size: 60px;
+
+}
+
+
+.imagesContainer {
+    position: relative;
+    width: 50%;
+    height: 80vh;
+
+}
+
+.imagesContainer div {
+    position: absolute;
+    padding: 30px;
+    border-radius: 20px;
+    background: url('../assets/meta.png') var(--Cover-background);
+
+    
+}
+
+.imageContainer1{
+    right: 10px;
+    z-index: 4;
+    bottom: 0;
+    transition: all 3s;
+}
+.imageContainer1After{
+    right: 10px;
+    z-index: 4;
+    bottom: 0;
+    transform: translateX(100%);
+    transition: all 3s;
+}
+.imageContainer2{
+    right: 20%;
+    bottom: 100px;
+    z-index: 3;
+    transform: rotate(10deg);
+    transition: all 3s;
+}
+.imageContainer2After{
+    right: 20%;
+    bottom: 100px;
+    z-index: 3;
+    transform: translateX(100%);
+    transition: all 3s;
+}
+.imageContainer3{
+    right: 0;
+    bottom: 250px;
+    z-index: 2;
+    transform: rotate(30deg);
+    transition: all 2s;
+}
+.imageContainer3After{
+    right: 0;
+    bottom: 250px;
+    z-index: 2;
+    transform: translateX(100%);
+    transition: all 3s;
+}
+
+.image1 {
+    width: 20vw;
+}
+
+.image2 {
+    width: 25vw;
+}
+
+.image3 {
+    width: 30vw;
+}

@@ -1,0 +1,56 @@
+:root {
+  --BackGrondBaseColor: rgb(35, 39, 47);
+  --BackGrounSecondColor: linear-gradient(90deg, rgb(24, 26, 32), rgb(28, 32, 38));
+  --Cover-background:center / 100% 100% no-repeat;
+  --Font-Title: 'Sora', sans-serif;;
+  --Font-Text:  'Ubuntu', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  overflow-wrap: break-word;
+
+}
+
+body {
+  margin: 0;
+  min-width: 350px;
+  min-height: 100vh;
+  background: var(--BackGrondBaseColor);
+  overflow-x: hidden;
+}
+
+.prueba {
+  contain: 'hola';
+  text-align: center;
+
+}
+
+
+.prueba h2 {
+  font-family: var(--Font-Title);
+  font-size: 100px;
+}
+
+.prueba p {
+  font-size: 30px;
+  font-family: var(--Font-Text);
+}
+
+
+/* font-family: 'Fira Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Sora', sans-serif;
+font-family: 'Ubuntu', sans-serif; */

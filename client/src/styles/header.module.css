@@ -1,0 +1,94 @@
+.mainContainer {
+    padding-top: 100px;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 1;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: resplandor 2s ;
+
+}
+
+.titleContainer img {
+    width: 200px;
+    position: relative;
+    top: 60px;
+    
+}
+
+.titleContainer h1 {
+    font-family: var(--Font-Text);
+    font-size: 100px;
+}
+
+
+.sloganContainer{
+    display: flex;
+    justify-content: center;
+    font-family: var(--Font-Title);
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.buttonsContainer button {
+    margin-right: 5vw;
+    margin-left: 5vw;
+    padding: 10px;
+    font-family: var(--Font-Text);
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 20px;
+}
+
+.button2 {
+    border: solid rgb(222, 215, 215) 1px;
+    background-color: transparent;
+}
+
+.button1 {
+    background: url('../assets/meta.png') var(--Cover-background);
+    border: none;
+}
+
+.button1:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.button2:hover {
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+@keyframes resplandor {
+    0% {
+      text-shadow: 0 0 10px white;
+    }
+    50% {
+      text-shadow: 0 0 20px white;
+    }
+    75% {
+      text-shadow: 0 0 10px white;
+    }
+    100%{
+        text-shadow: 0 0 3px white
+    }
+  }
+

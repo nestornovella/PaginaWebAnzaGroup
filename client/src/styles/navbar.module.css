@@ -1,0 +1,68 @@
+
+.mainContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;    
+    width: calc(100% - 20px);
+    padding: 10px 10px 10px 10px;
+    color: rgb(171, 176, 176);
+    background-color: var(--BackGrondBaseColor);
+    z-index: 10;
+}
+
+.lengageContainer button {
+    padding: 5px 20px 5px 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+    font-family: var(--Font-Text);
+    color: rgb(171, 176, 176);
+
+}
+
+.lengageContainer button:hover{
+    border-radius: 20px;
+    background:url('../assets/meta.png')var(--Cover-background);
+    cursor: pointer; 
+    border-radius: 20px;  
+    color: white;
+}
+
+.logoContainer{
+    display: flex;
+    font-family: var(--Font-Text);
+}
+
+.logoContainer img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.linksContainer {
+    width: 30%;
+}
+
+.linksContainer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.linksContainer ul li{
+    padding: 5px 20px 5px 20px;
+    font-size: 20px;
+    font-family: var(--Font-Text);
+    font-weight: 500;
+}
+
+.linksContainer ul li:hover {
+    border-radius: 20px;
+    background:url('../assets/meta.png')var(--Cover-background);
+    cursor: pointer;   
+    color: white;
+}
